@@ -7,3 +7,6 @@ function Player(name, mark) {
   this.mark = mark;
 }
 
+var playerMessage = function(){
+  $(turn).text("It's " + currentPlayer.name + "'s turn.");
+}

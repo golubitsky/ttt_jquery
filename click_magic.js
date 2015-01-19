@@ -10,13 +10,13 @@ for (var i = 0; i <= 2; i++) {
 
       if (mark) {
         currentPlayer = (currentPlayer === player1) ? player2 : player1;
-        $(turn).text("It's " + currentPlayer.name + "'s turn.");
+        playerMessage();
       } else {
         $(turn).text("Invalid move. It's still " + currentPlayer.name + "'s turn.");
       };
 
       board.render();
-      winMessage();
+      endGame();
     });
   };
 };

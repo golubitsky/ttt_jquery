@@ -75,3 +75,41 @@ figcaption {
   text-align: center;
   background-color: #B00000 ;
 }
+
+#play-again {
+  background-color: #B00000;
+  color: white;
+  display: none;
+  margin: 10px auto;
+}
+
+.btn {
+  background: #B00000;
+  background-image: -webkit-linear-gradient(top, #B00000, #730000);
+  background-image: -moz-linear-gradient(top, #B00000, #730000);
+  background-image: -ms-linear-gradient(top, #B00000, #730000);
+  background-image: -o-linear-gradient(top, #B00000, #730000);
+  background-image: linear-gradient(to bottom, #B00000, #730000);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 2px 3px #000000;
+  -moz-box-shadow: 0px 2px 3px #000000;
+  box-shadow: 0px 2px 3px #000000;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-color: black;
+}
+
+.btn:hover {
+  background: #B00000;
+  background-image: -webkit-linear-gradient(top, #B00000, #a30303);
+  background-image: -moz-linear-gradient(top, #B00000, #a30303);
+  background-image: -ms-linear-gradient(top, #B00000, #a30303);
+  background-image: -o-linear-gradient(top, #B00000, #a30303);
+  background-image: linear-gradient(to bottom, #B00000, #a30303);
+  text-decoration: none;
+}

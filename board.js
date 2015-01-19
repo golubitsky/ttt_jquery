@@ -1,12 +1,16 @@
 var board = new Board();
 
 function Board(){
+  winner = false;
   this.grid = [[" "," "," "], [" "," "," "], [" "," "," "]];
 };
 
 Board.prototype.init = function() {
+  winner = false;
   this.grid = [[" "," "," "], [" "," "," "], [" "," "," "]];
   this.render();
+  currentPlayer = player1;
+  playerMessage();
 }
 Board.prototype.won = function() {
   var diags = [
@@ -47,11 +51,11 @@ Board.prototype.empty = function(pos){
 };
 
 Board.prototype.placeMark = function(pos, mark) {
+  if (winner) { return false; };
   if (this.empty(pos)) {
     this.grid[pos[0]][pos[1]] = mark;
     return true;
   } else {
-    console.log("Invalid Move: Space Ocupado, Permiso")
     return false;
   };
 };
