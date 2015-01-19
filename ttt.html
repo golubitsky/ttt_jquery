@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="ttt.css">
+    <title>TicTacToe: Markov v Tchaikovsky</title>
+  </head>
+  <body>
+    <h1>TicTacToe</h1>
+    <h2>The Ultimate Battle Between Logic and Pathos</h2>
+    <div id="container">
+      <div>
+        <figure id="markov">
+          <img src="images/markov.jpg" alt="Andrey Markov">
+          <figcaption>
+            <a href=http://en.wikipedia.org/wiki/Andrey_Markov>A.A. Markov</a>
+          </figcaption>
+        </figure>
+      </div>
+      <div>
+        <table id="board">
+          <tr id="row0">
+            <td class="col0" x="0" y="0"> </td>
+            <td class="col1" x="0" y="1"> </td>
+            <td class="col2" x="0" y="2"> </td>
+          </tr>
+          <tr id="row1">
+            <td class="col0" x="1" y="0"> </td>
+            <td class="col1" x="1" y="1"> </td>
+            <td class="col2" x="1" y="2"> </td>
+          </tr>
+          <tr id="row2">
+            <td class="col0" x="2" y="0"> </td>
+            <td class="col1" x="2" y="1"> </td>
+            <td class="col2" x="2" y="2"> </td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <figure id="tchaik">
+          <img src="images/tchaikovsky.jpg" alt="P.I. Tchaikovksy">
+          <figcaption>
+            <a href="http://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky">P.I. Tchaikovsky</a>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <p id="turn">It's Markov's turn.</p>
+    <script src="jquery-2.1.3.min.js"></script>
+    <script src="board.js"></script>
+    <script src="player.js"></script>
+    <script src="game.js"></script>
+    <script src="click_magic.js"></script>
+  </body>
+</html>

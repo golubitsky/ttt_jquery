@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  border-collapse: collapse;
+}
+
+h1 {
+  text-align: center;
+  color: #B00000;
+  font-size: 30px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #B00000;
+  line-height: 16px;
+  font-size: 16px;
+  margin: 8 0;
+}
+
+#container {
+  height: 225px;
+  margin: 0px auto;
+  display: flex;
+}
+
+#container > div {
+  height: 100%;
+  width: 33.3%;
+  margin: 0px;
+}
+
+#markov {
+  margin: auto;
+  height: 100%;
+  float: right
+}
+
+#tchaik {
+  margin: auto;
+  height: 100%;
+  float: left
+}
+
+figcaption {
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+  color: #B00000;
+}
+
+#board {
+  background-color: orange;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+}
+#board tr {
+  width: 100%;
+  background-color: grey;
+}
+#board td {
+  text-align: center;
+  width: 33.3%;
+  height: 33.3%;
+  font-size: 40px;
+  border: 3px solid #B00000;
+}
+
+#turn {
+  margin: 10px auto;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #B00000 ;
+}
